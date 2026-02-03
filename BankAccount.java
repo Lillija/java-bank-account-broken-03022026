@@ -9,7 +9,7 @@ class BankAccount {
         } else {
            balance = amount;
         }
-    };
+    }
 
     public double withdrawal(double amount, double balance) {
         if (amount > 0) {

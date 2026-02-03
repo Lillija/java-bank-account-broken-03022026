@@ -18,7 +18,7 @@ class Main {
                 case "1":
                     System.out.print("\nIevadiet pievienojamo summu: ");
                     double dep = Double.parseDouble(sc.nextLine());
-                    bankAcount.deposit();
+                    bankAcount.deposited();
                     break;
                 case "2":
                     System.out.print("\nIevadiet izņemto summu: ");
